@@ -1,39 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page!</title>
-  <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
-  <div class="relative h-screen w-full md:flex">
-  <!-- Background Image -->
-  <div class="absolute inset-0">
-    <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" class="h-full w-full object-cover" alt="Background" />
-    <!-- Black Overlay -->
-    <div class="absolute inset-0 bg-black/50"></div>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page!</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <div class="relative h-screen w-full md:flex">
+      <!-- Background Image -->
+      <div class="absolute inset-0">
+        <img
+          src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg"
+          class="h-full w-full object-cover"
+          alt="Background"
+        />
+        <!-- Black Overlay -->
+        <div class="absolute inset-0 bg-black/50"></div>
+      </div>
 
-  <!-- Content Sections -->
-  <div class="relative z-10 flex h-full w-full flex-col md:flex-row">
-    <!-- First Section -->
-    <div class="flex h-1/2 items-center justify-center md:h-full md:w-1/2">
-      <a href="https:google.com" onclick="checkPassword(event)"; class="flex flex-col items-center justify-center">
-        <img src="https://images.pexels.com/photos/255339/pexels-photo-255339.jpeg" class="w-1/2 rounded-3xl object-cover shadow-2xl transition-all duration-300 ease-in-out hover:scale-110" alt="First Image" />
-        <p class="mt-4 text-2xl font-semibold text-white transition-all duration-300 ease-in-out hover:scale-x-110 hover:text-yellow-300">Enter Here!</p>
-      </a>
-    </div>
+      <!-- Content Sections -->
+      <div class="relative z-10 flex h-full w-full flex-col md:flex-row">
+        <!-- First Section -->
+        <div class="flex h-1/2 items-center justify-center md:h-full md:w-1/2">
+          <a
+            href="https:google.com"
+            onclick="checkPassword(event)"
+            ;
+            class="flex flex-col items-center justify-center"
+          >
+            <img
+              src="https://images.pexels.com/photos/255339/pexels-photo-255339.jpeg"
+              class="w-1/2 rounded-3xl object-cover shadow-2xl transition-all duration-300 ease-in-out hover:scale-110"
+              alt="First Image"
+            />
+            <p
+              class="mt-4 text-2xl font-semibold text-white transition-all duration-300 ease-in-out hover:scale-x-110 hover:text-yellow-300"
+            >
+              Enter Here [A+]
+            </p>
+          </a>
+        </div>
 
-    <!-- Second Section -->
-    <div class="flex h-1/2 items-center justify-center md:h-full md:w-1/2">
-      <a href="https://google.com" class="flex flex-col items-center justify-center">
-        <img src="https://images.pexels.com/photos/1333732/pexels-photo-1333732.jpeg" class="w-1/2 rounded-3xl object-cover shadow-2xl transition-all duration-300 ease-in-out hover:scale-110" alt="Second Image" />
-        <p class="mt-4 text-2xl font-semibold text-white transition-all duration-300 ease-in-out hover:scale-x-110 hover:text-yellow-300">Enter Here!</p>
-      </a>
+        <!-- Second Section -->
+        <div class="flex h-1/2 items-center justify-center md:h-full md:w-1/2">
+          <a
+            href="./home.html"
+            class="flex flex-col items-center justify-center"
+          >
+            <img
+              src="https://images.pexels.com/photos/1333732/pexels-photo-1333732.jpeg"
+              class="w-1/2 rounded-3xl object-cover shadow-2xl transition-all duration-300 ease-in-out hover:scale-110"
+              alt="Second Image"
+            />
+            <p
+              class="mt-4 text-2xl font-semibold text-white transition-all duration-300 ease-in-out hover:scale-x-110 hover:text-yellow-300"
+            >
+              Enter Here [Regular]
+            </p>
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<script src="/script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
